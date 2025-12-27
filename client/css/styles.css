@@ -1,5 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 100px;
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: url("../assets/JKUAT-Main-Campus-Gate-A.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #1f2937;
+  height: 100vh;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.landing-card {
+  background: #ffffff;
+  max-width: 520px;
+  width: 100%;
+  padding: 48px 40px;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  background: #e6f4ea;
+  color: #5cb85c;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  margin: 0 0 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #374151;
+  margin-bottom: 32px;
+}
+
+.primary-btn {
+  background: #5cb85c;
+  color: #ffffff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.primary-btn:hover {
+  background: #14532d;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(22, 101, 52, 0.25);
+}
+
+.note {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+footer {
+  margin-top: 24px;
+  font-size: 13px;
+  color: #9ca3af;
 }
